@@ -8,6 +8,7 @@ import Blackfriday from "./BlackFriday";
 import Meilleursoffrescowema from "./MeilleursOffresCowema";
 import Stories from "./Stories";
 import Annonces from "./Annonces";
+import Offredebattre from "./OffreDebattre";
 
 const Body = () => {
   return (
@@ -21,6 +22,7 @@ const Body = () => {
       <Meilleurprofil />
       <Stories/>
       <Annonces/>
+      <Offredebattre/>
     </div>
   );
 };
