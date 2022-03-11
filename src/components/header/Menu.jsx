@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../images/logo (2).png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
@@ -9,10 +10,11 @@ import {
 
 const Menu = () => {
   return (
-    <header className="text-gray-600 body-font box border-solid shadow-xl px-12 py-1 ">
-      <div className="container mx-auto flex flex-wrap py-4 items-center gap-10 ">
+    <header className="text-gray-600 body-font box border-solid shadow-xl px-16 py-1 ">
+      <div className="container  mx-auto flex flex-wrap py-4 items-center gap-10 ">
         <div className="flex title-font font-medium items-center text-gray-900 mb-4">
           {/* Ici mon logo */}
+          <img src={logo} alt="" srcset="" className="w-12 h-12" />
           <span className="text-xl pt-2">Cowema</span>
         </div>
         <nav className="mr-auto ml-4 py-1 pl-4  flex flex-wrap items-center text-base justify-center">

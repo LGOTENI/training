@@ -9,6 +9,7 @@ import Meilleursoffrescowema from "./MeilleursOffresCowema";
 import Stories from "./Stories";
 import Annonces from "./Annonces";
 import Offredebattre from "./OffreDebattre";
+import Howtowork from "./HowToWork";
 
 const Body = () => {
   return (
@@ -23,6 +24,7 @@ const Body = () => {
       <Stories/>
       <Annonces/>
       <Offredebattre/>
+      <Howtowork/>
     </div>
   );
 };

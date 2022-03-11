@@ -4,9 +4,9 @@ import { faShareAlt, faHeart, faSms } from "@fortawesome/free-solid-svg-icons";
 
 const Offredebattre = () => {
     return (
-      <div className="px-12 mb-8">
+      <div className="px-16 mb-8">
         <div>
-          <div className="text-3xl font-bold mb-6">
+          <div className="text-3xl  mb-6">
             Les meilleurs offres près à debattre
           </div>
           <div className="grid grid-cols-4 gap-8">
@@ -18,7 +18,7 @@ const Offredebattre = () => {
                   srcset=""
                   className=" cover-full h-full w-full rounded-t-lg shadow-lg"
                 />
-                <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-green-400 z-2">
+                <div className="absolute top-0 mr-6 py-3 px-4 right-0 rounded-b-md bg-green-400 z-2">
                   A débattre
                 </div>
               </div>
@@ -43,7 +43,7 @@ const Offredebattre = () => {
                   <div className="text-gray-400">15</div>
                 </div>
                 <div className="flex flex-wrap gap- justify-between">
-                  <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+                  <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-1 text-xl hover:bg-orange-600">
                     Faire une offre
                   </button>
                   <div className="my-auto text-green-500">
@@ -63,7 +63,7 @@ const Offredebattre = () => {
                   srcset=""
                   className=" cover-full h-full w-full rounded-t-lg shadow-lg"
                 />
-                <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-red-500 z-2">
+                <div className="absolute top-0 mr-6 py-3 px-4 right-0 rounded-b-md bg-red-500 z-2">
                   Stock épuisé
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Offredebattre = () => {
                   <div className="text-gray-400">15</div>
                 </div>
                 <div className="flex flex-wrap gap- justify-between">
-                  <button className="mt-2 px-4 bg-green-500 rounded-sm text-white py-3 text-xl hover:bg-green-600">
+                  <button className="mt-2 px-4 bg-green-500 rounded-sm text-white py-1 text-xl hover:bg-green-600">
                     Acheter
                   </button>
                   <div className="my-auto text-green-500">
@@ -108,7 +108,7 @@ const Offredebattre = () => {
                   srcset=""
                   className=" cover-full h-full w-full rounded-t-lg shadow-lg"
                 />
-                <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-green-400 z-2">
+                <div className="absolute top-0 mr-6 py-3 px-4 right-0 rounded-b-md bg-green-400 z-2">
                   A débattre
                 </div>
               </div>
@@ -133,7 +133,7 @@ const Offredebattre = () => {
                   <div className="text-gray-400">15</div>
                 </div>
                 <div className="flex flex-wrap gap- justify-between">
-                  <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+                  <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-1 text-xl hover:bg-orange-600">
                     Faire une offre
                   </button>
                   <div className="my-auto text-green-500">
@@ -153,7 +153,7 @@ const Offredebattre = () => {
                   srcset=""
                   className=" cover-full h-full w-full rounded-t-lg shadow-lg"
                 />
-                <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-green-400 z-2">
+                <div className="absolute top-0 mr-6 py-3 px-4 right-0 rounded-b-md bg-green-400 z-2">
                   A débattre
                 </div>
               </div>
@@ -178,7 +178,7 @@ const Offredebattre = () => {
                   <div className="text-gray-400">15</div>
                 </div>
                 <div className="flex flex-wrap gap- justify-between">
-                  <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+                  <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-1 text-xl hover:bg-orange-600">
                     Faire une offre
                   </button>
                   <div className="my-auto text-green-500">

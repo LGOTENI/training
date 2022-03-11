@@ -3,8 +3,8 @@ import React from "react";
 const Annonces = () => {
   return (
     <div className="bg-green-100 mb-8">
-      <div className="px-12 py-4">
-        <div className="text-3xl font-bold text-center mb-6">
+      <div className="px-16 py-4">
+        <div className="text-3xl text-center mb-6">
           Les annonces récemment publiées
         </div>
         <div className="flex flex-wrap justify-between">

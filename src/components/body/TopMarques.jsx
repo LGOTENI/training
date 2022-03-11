@@ -8,7 +8,7 @@ import {
 const Topmarques = () => {
     return (
       <div>
-        <div className="mx-[48px] my-8 flex justify-between">
+        <div className="px-16 my-8 flex justify-between">
           <div className="text-3xl font-bold ">Les tops marques</div>
         </div>
         <div class="flex justify-around my-4 mx-[48px]">

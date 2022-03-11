@@ -9,9 +9,9 @@ import {
 
 const Meilleuresoffre = () => {
   return (
-    <div className="px-12 mb-8">
+    <div className="px-16 mb-8">
       <div>
-        <div className="text-3xl font-bold mb-6">
+        <div className="text-3xl mb-6">
           Les meilleurs offres près de chez vous
         </div>
         <div className="grid grid-cols-4 gap-8">
@@ -21,9 +21,9 @@ const Meilleuresoffre = () => {
                 src="https://img.freepik.com/photos-gratuite/ecran-lumineux-vide-personne-tenant-telephone-mobile_53876-98458.jpg?size=626&ext=jpg&ga=GA1.2.1389423758.1646387486"
                 alt="item"
                 srcset=""
-                className=" cover-full h-full w-full rounded-t-lg shadow-lg"
+                className=" cover-fill ccover-full h-full w-full rounded-t-lg shadow-lg"
               />
-              <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-green-400 z-2">
+              <div className="absolute top-0 mr-6 py-2 px-10 right-0 rounded-b-md bg-green-400 z-2">
                 A débattre
               </div>
             </div>
@@ -48,7 +48,7 @@ const Meilleuresoffre = () => {
                 <div className="text-gray-400">15</div>
               </div>
               <div className="flex flex-wrap gap- justify-between">
-                <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+                <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-1 text-xl hover:bg-orange-600">
                   Faire une offre
                 </button>
                 <div className="my-auto text-green-500">
@@ -66,9 +66,9 @@ const Meilleuresoffre = () => {
                 src="https://img.freepik.com/photos-gratuite/boites-emballage-sac-dans-panier-ordinateur-portable-pour-concept-magasinage-livraison-ligne_38716-138.jpg?size=626&ext=jpg&ga=GA1.2.1389423758.1646387486"
                 alt="item"
                 srcset=""
-                className=" cover-full h-full w-full rounded-t-lg shadow-lg"
+                className=" cover-fill cover-full h-full w-full rounded-t-lg shadow-lg"
               />
-              <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-red-500 z-2">
+              <div className="absolute top-0 mr-6 py-2 px-10 right-0 rounded-b-md bg-red-500 z-2">
                 Stock épuisé
               </div>
             </div>
@@ -93,7 +93,7 @@ const Meilleuresoffre = () => {
                 <div className="text-gray-400">15</div>
               </div>
               <div className="flex flex-wrap gap- justify-between">
-                <button className="mt-2 px-4 bg-green-500 rounded-sm text-white py-3 text-xl hover:bg-green-600">
+                <button className="mt-2 px-4 bg-green-500 rounded-sm text-white py-1 text-xl hover:bg-green-600">
                   Acheter
                 </button>
                 <div className="my-auto text-green-500">
@@ -113,7 +113,7 @@ const Meilleuresoffre = () => {
                 srcset=""
                 className=" cover-full h-full w-full rounded-t-lg shadow-lg"
               />
-              <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-green-400 z-2">
+              <div className="absolute top-0 mr-6 py-2   px-10 right-0 rounded-b-md bg-green-400 z-2">
                 A débattre
               </div>
             </div>
@@ -138,7 +138,7 @@ const Meilleuresoffre = () => {
                 <div className="text-gray-400">15</div>
               </div>
               <div className="flex flex-wrap gap- justify-between">
-                <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+                <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-1 text-xl hover:bg-orange-600">
                   Faire une offre
                 </button>
                 <div className="my-auto text-green-500">
@@ -158,7 +158,7 @@ const Meilleuresoffre = () => {
                 srcset=""
                 className=" cover-full h-full w-full rounded-t-lg shadow-lg"
               />
-              <div className="absolute top-0 mr-6 px-2 right-0 rounded-b-md bg-green-400 z-2">
+              <div className="absolute top-0 mr-6 py-2 px-10 right-0 rounded-b-md bg-green-400 z-2">
                 A débattre
               </div>
             </div>
@@ -183,7 +183,7 @@ const Meilleuresoffre = () => {
                 <div className="text-gray-400">15</div>
               </div>
               <div className="flex flex-wrap gap- justify-between">
-                <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+                <button className="mt-2 px-4 bg-orange-500 rounded-sm text-white py-1 text-xl hover:bg-orange-600">
                   Faire une offre
                 </button>
                 <div className="my-auto text-green-500">

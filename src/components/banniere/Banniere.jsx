@@ -1,5 +1,9 @@
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
+import image1 from "../../images/Image1.png"
+import image2 from "../../images/Image2.png"
+import image3 from "../../images/Groupe 6.png"
+import image4 from "../../images/Rectangle 5.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClockFour,
@@ -58,8 +62,8 @@ const Banniere = () => {
         fontWeight: "bold",
       };
   return (
-    <div className="flex flex-row px-12 gap-4 my-4">
-      <div className="basis-3/5 bg-green-100">
+    <div className="flex flex-row px-16 gap-4 my-4">
+      <div className="basis-3/5 bg-[#E9F9F2]">
         <div className="box border-solid shadow-xl rounded-xl ">
           <Carousel
             data={data}
@@ -84,60 +88,52 @@ const Banniere = () => {
           />
         </div>
         <div className="">
-          <div className="grid grid-cols-4 gap-2 mx-4 my-4">
+          <div className="grid grid-cols-4 gap-4 mx-4 my-4">
             <div className="col-span-1">
-              <div className="grid grid-cols-4 h-16 border-2 border-white rounded-sm bg-white text-orange-500">
+              <div className="grid grid-cols-4 h-16 border-2 border-white rounded-sm bg-white text-[#FF9D00]">
                 <div className="col-span-1 my-auto mx-auto text-3xl ">
-                  <FontAwesomeIcon
-                    icon={faTruckFast}
-                    id="titre"
-                  />
+                  <FontAwesomeIcon icon={faTruckFast} id="titre" />
                 </div>
                 <div className="col-span-3">
-                  <div className="text-[12px] font-bold">Free shipping</div>
-                  <div className="text-[12px]">Free shipping in all Congo</div>
+                  <div className="text-[10px] font-bold">Free shipping</div>
+                  <div className="text-[10px]">Free shipping in all Congo</div>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
-              <div className="grid h-16 grid-cols-4 border-2 border-white rounded-sm bg-white text-orange-500">
+              <div className="grid h-16 grid-cols-4 border-2 border-white rounded-md bg-white text-[#FF9D00]">
                 <div className="col-span-1 my-auto mx-auto text-3xl ">
-                  <FontAwesomeIcon
-                    icon={faClockFour}
-                    id="titre"
-                  />
+                  <FontAwesomeIcon icon={faClockFour} id="titre" />
                 </div>
                 <div className="col-span-3">
                   <div className="text-[12px] font-bold">24/7 services</div>
-                  <div className="text-[12px]">Contact us 24 hours a days 7 days a week</div>
+                  <div className="text-[10px]">
+                    Contact us 24 hours a days 7 days a week
+                  </div>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
-              <div className="grid grid-cols-4 h-16 border-2 border-white rounded-sm bg-white text-orange-500">
+              <div className="grid grid-cols-4 h-16 border-2 border-white rounded-md bg-white text-[#FF9D00]">
                 <div className="col-span-1 my-auto mx-auto text-3xl ">
-                  <FontAwesomeIcon
-                    icon={faIndustry}
-                    id="titre"
-                  />
+                  <FontAwesomeIcon icon={faIndustry} id="titre" />
                 </div>
                 <div className="col-span-3">
                   <div className="text-[12px] font-bold">30 days return</div>
-                  <div className="text-[12px]">Free shipping in all Congo</div>
+                  <div className="text-[10px]">Free shipping in all Congo</div>
                 </div>
               </div>
             </div>
             <div className="col-span-1">
-              <div className="grid grid-cols-4 h-16 border-2 border-white rounded-sm bg-white text-orange-500">
+              <div className="grid grid-cols-4 h-16 border-2 border-white rounded-md bg-white text-[#FF9D00]">
                 <div className="col-span-1 my-auto mx-auto text-3xl ">
-                  <FontAwesomeIcon
-                    icon={faCreditCardAlt}
-                    id="titre"
-                  />
+                  <FontAwesomeIcon icon={faCreditCardAlt} id="titre" />
                 </div>
                 <div className="col-span-3">
-                  <div className="text-[12px] font-bold">100% payement secure</div>
-                  <div className="text-[12px]">Free shipping in all Congo</div>
+                  <div className="text-[12px] font-bold">
+                    100% payement secure
+                  </div>
+                  <div className="text-[10px]">Free shipping in all Congo</div>
                 </div>
               </div>
             </div>
@@ -145,33 +141,33 @@ const Banniere = () => {
         </div>
       </div>
       <div className="basis-2/5 ">
-        <div className="grid grid-cols-2 gap-4 h-full">
+        <div className="grid grid-cols-2 gap-2 h-full">
           <div className="col-span-1">
             <img
-              src="https://thynxlabs.com/wp-content/uploads/2020/02/e-commerce.gif"
+              src={image4}
               alt=""
               className="lg:h-60 md:h-36 w-full object-cover object-center box border-solid shadow-xl"
             />
           </div>
           <div className="col-span-1">
             <img
-              src="https://img.freepik.com/photos-gratuite/pile-t-shirt-polo_74190-2482.jpg?size=626&ext=jpg&ga=GA1.2.1389423758.1646387486"
+              src={image1}
               alt=""
-              className="w-full lg:h-60 md:h-36 object-cover object-center box border-solid shadow-xl"
+              className="w-full lg:h-60 md:h-36 object-cover object-center"
             />
           </div>
           <div className="col-span-1 h-full">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSL3TdknWFJiCkB0vef9GA9yaoN4u5qdI3cw&usqp=CAU"
+              src={image2}
               alt=""
-              className="w-full lg:h-60 md:h-36 object-cover object-center box border-solid shadow-xl"
+              className="w-full lg:h-60 md:h-36 object-cover object-center box border-solid"
             />
           </div>
-          <div className="col-span-1 h-full">
+          <div className="col-span-1 h-full lg:h-60 md:h-36 ">
             <img
-              src="https://img.freepik.com/photos-gratuite/portrait-sourire-belle-fille-elle-beau-petit-ami-rire-heureux-couple-gai-dans-lunettes-soleil_158538-4998.jpg?size=626&ext=jpg&ga=GA1.1.1389423758.1646387486"
+              src="https://img.freepik.com/photos-gratuite/dispositifs-techniques-icones-connectes-planete-terre-numerique_117023-449.jpg?size=626&ext=jpg&ga=GA1.1.1389423758.1646387486"
               alt=""
-              className="w-full lg:h-60 md:h-36 object-cover object-center box border-solid shadow-xl"
+              className="objet-cover cover-full h-full w-full object-center"
             />
           </div>
         </div>

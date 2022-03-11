@@ -8,7 +8,7 @@ import {
 
 const Meilleurprofil = () => {
     return (
-      <div className="px-12 mb-8">
+      <div className="px-16 mb-8">
         <div className="bg-green-100 rounded-md px-12 py-4">
           <div className="text-3xl font-bold text-center mb-6">
             Les meilleurs profils pour vos deals

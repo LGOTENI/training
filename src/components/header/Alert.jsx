@@ -12,16 +12,14 @@ const Alert = () => {
         }
       >
         <div
-          class="bg-orange-500 text-red-700 px-16 py-6 sticky top-0"
+          class="bg-[#FF9D00]   text-red-700 px-16 py-6 sticky top-0"
           role="alert"
         >
-          <span class="block text-white font-extrabold text-4xl">
+          <span class="block text-white font-extrabold text-2xl">
             PROFITEZ DE LA LIVRAISON GRATUITE SUR
           </span>
-          <div>
+          <div></div>
 
-          </div>
-          
           <span
             class="absolute top-0 bottom-0 right-0 my-8 mr-4"
             onClick={(e) => setAlert(!alert)}

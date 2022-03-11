@@ -9,9 +9,9 @@ import {
 
 const Stories = () => {
     return (
-      <div className="mx-[48px]">
+      <div className="px-16">
         <div className="my-8">
-          <div className="text-3xl font-bold ">
+          <div className="text-3xl ">
             Les stories des articles vendus sur Cowema
           </div>
         </div>

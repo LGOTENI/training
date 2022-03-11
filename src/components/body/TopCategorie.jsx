@@ -8,7 +8,7 @@ import {
 const Topcategorie = () => {
     return (
       <div>
-        <div className="mx-[48px] my-6 flex justify-between">
+        <div className="px-16 my-6 flex justify-between">
           <div className="font-bold text-xl">Les tops catégories</div>
         </div>
         <div class="flex justify-around my-4 mx-[48]">
@@ -57,6 +57,17 @@ const Topcategorie = () => {
               {/* <div class="absolute top-0 right-0 h-6 w-6 my-1 border-4 border-white rounded-full bg-gray-300 z-2"></div> */}
             </div>
             <div className="mt-2">Electronique</div>
+          </div>
+          <div>
+            <div class="relative w-24 h-24 rounded-full cursor-pointer hover:shadow-sm hover:shadow-green-400">
+              <img
+                className="rounded-full border h-24 w-24 border-gray-100 shadow-sm"
+                src="https://img.freepik.com/photos-gratuite/blocs-icones-medias-sociaux-ordinateur-portable-fond-bleu_23-2147841214.jpg?size=626&ext=jpg&ga=GA1.1.1389423758.1646387486"
+                alt=""
+              />
+              {/* <div class="absolute top-0 right-0 h-6 w-6 my-1 border-4 border-white rounded-full bg-gray-300 z-2"></div> */}
+            </div>
+            <div className="mt-2">Divertissement</div>
           </div>
           <div className="text-center">
             <div class="relative w-24 h-24 rounded-full cursor-pointer hover:shadow-sm hover:shadow-green-400">

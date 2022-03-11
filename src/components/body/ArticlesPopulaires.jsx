@@ -2,9 +2,9 @@ import React from "react";
 
 const Articlespopulaires = () => {
   return (
-    <div className="px-12 my-8">
+    <div className="px-16 my-8">
       <div className="bg-green-100 rounded-md p-4">
-        <div className="text-3xl font-bold text-center mb-6">
+        <div className="text-3xl text-center mb-6">
           Les articles les plus populaires
         </div>
         <div className="grid grid-cols-4 gap-8">
@@ -22,14 +22,14 @@ const Articlespopulaires = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde
                 deleniti
               </h5>
-              <button className="mt-2 bg-green-500 w-full rounded-sm text-white py-3 text-xl hover:bg-green-600">
+              <button className="mt-2 bg-green-500 w-full rounded-md text-white py-2 text-xl hover:bg-green-600">
                 Acheter
               </button>
             </div>
           </div>
           <div className="col-span-1 border-2 text-center border-green-500 rounded-md bg-white">
             <div className="relative h-72">
-              <div className="bg-green-500 rounded-br-md rounded-bl-md w-28 top-0 float-right mr-8 text-white">
+              <div className="bg-green-500 rounded-br-md py-2 px-10 rounded-bl-md top-0 float-right mr-8 text-white">
                 A débattre
               </div>
               <img
@@ -44,7 +44,7 @@ const Articlespopulaires = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde
                 deleniti
               </h5>
-              <button className="mt-2 bg-orange-500 w-full rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+              <button className="mt-2 bg-orange-500 w-full rounded-md text-white py-2 text-xl hover:bg-orange-600">
                 Faire une offre
               </button>
             </div>
@@ -63,14 +63,14 @@ const Articlespopulaires = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde
                 deleniti
               </h5>
-              <button className="mt-2 bg-green-500 w-full rounded-sm text-white py-3 text-xl hover:bg-green-600">
+              <button className="mt-2 bg-green-500 w-full rounded-md text-white py-2 text-xl hover:bg-green-600">
                 Acheter
               </button>
             </div>
           </div>
           <div className="col-span-1 border-2 text-center border-green-500 rounded-md bg-white">
             <div className="relative h-72">
-              <div className="bg-green-500 rounded-br-md rounded-bl-md w-28 top-0 float-right mr-8 text-white">
+              <div className="bg-green-500 rounded-br-md py-2 px-10 rounded-bl-md top-0 float-right mr-8 text-white">
                 A débattre
               </div>
               <img
@@ -85,7 +85,7 @@ const Articlespopulaires = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde
                 deleniti
               </h5>
-              <button className="mt-2 bg-orange-500 w-full rounded-sm text-white py-3 text-xl hover:bg-orange-600">
+              <button className="mt-2 bg-orange-500 w-full rounded-md text-white py-2 text-xl hover:bg-orange-600">
                 Faire une offre
               </button>
             </div>
