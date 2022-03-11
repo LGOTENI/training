@@ -11,7 +11,7 @@ const Topcategorie = () => {
         <div className="mx-[48px] my-6 flex justify-between">
           <div className="font-bold text-xl">Les tops catégories</div>
         </div>
-        <div class="flex justify-around my-4">
+        <div class="flex justify-around my-4 mx-[48]">
           <div className="my-auto">
             <div className="text-4xl text-green-500 cursor-pointer hover:text-green-600">
               <FontAwesomeIcon icon={faChevronLeft} />

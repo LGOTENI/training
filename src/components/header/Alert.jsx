@@ -18,6 +18,10 @@ const Alert = () => {
           <span class="block text-white font-extrabold text-4xl">
             PROFITEZ DE LA LIVRAISON GRATUITE SUR
           </span>
+          <div>
+
+          </div>
+          
           <span
             class="absolute top-0 bottom-0 right-0 my-8 mr-4"
             onClick={(e) => setAlert(!alert)}

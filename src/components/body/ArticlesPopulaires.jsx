@@ -3,7 +3,7 @@ import React from "react";
 const Articlespopulaires = () => {
   return (
     <div className="px-12 my-8">
-      <div className="bg-green-100 rounded-sm p-4">
+      <div className="bg-green-100 rounded-md p-4">
         <div className="text-3xl font-bold text-center mb-6">
           Les articles les plus populaires
         </div>
